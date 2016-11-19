@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 DownloadManager downloadManager;
                 downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 DownloadManager.Request request = new DownloadManager.Request(uri)
-                        .setTitle("Random File")
+                        .setTitle("new File")
                         .setDescription("Hello World")
                         .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
 
